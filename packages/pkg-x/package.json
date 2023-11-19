@@ -1,0 +1,15 @@
+{
+  "name": "pkg-x",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "vitest": "^1.0.0-beta.5",
+    "@vitest/ui": "^1.0.0-beta.5",
+    "vitest-css-test-module": "1.0.0"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

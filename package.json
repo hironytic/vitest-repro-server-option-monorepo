@@ -1,0 +1,21 @@
+{
+  "name": "@vitest/example-test",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test-w": "npm run test --workspaces"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^1.0.0-beta.5",
+    "vitest": "^1.0.0-beta.5"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test"
+  },
+  "workspaces": [
+    "packages/pkg-x"
+  ]
+}
